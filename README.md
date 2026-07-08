@@ -36,12 +36,12 @@ They are meant to explain the architecture, not to run the full product.
 5. [Reference Surfaces and Validation](docs/06-reference-surfaces-and-validation.md)
 6. [AI-assisted Workflow Example](docs/08-ai-assisted-workflow-example.md)
 
-## Related Surfaces
+## Related Links
 
-- Portfolio case RU: will be added after publication.
-- Portfolio case EN: will be added after publication.
-- Live Demo: will be added after final domain setup.
-- Component Showcase: will be added after publication.
+This repository supports the CoastKey portfolio case as a technical showcase
+and reference surface for interface-system architecture.
+
+Public links will be added after the final domain setup.
 
 ## Architecture In One Minute
 
@@ -69,4 +69,5 @@ skills, routers, backlog state, deployment details, private media assets,
 private Figma links, and internal workflow history.
 
 See [Public / Private Boundary](docs/09-public-private-boundary.md) and
-[Public Safety Audit](PUBLIC-SAFETY-AUDIT.md) before publishing.
+[Public Safety Audit](PUBLIC-SAFETY-AUDIT.md) for the current publication
+state.

@@ -1,7 +1,9 @@
 # Public Safety Audit
 
-Status: final local cleanup complete; prepared for manual GitHub publication
-after human review.
+Status: published public portfolio showcase repository.
+
+This audit was originally prepared before publication and was updated after
+the initial GitHub push.
 
 ## Created Files
 
@@ -44,7 +46,7 @@ This repository contains:
 | Check | Result |
 | --- | --- |
 | `.git` copied from source | Passed. No source repository history was copied. A new local repository was initialized for this snapshot only. |
-| Remote configured | Passed. No remote is configured. |
+| Remote configured | Passed. The repository now tracks its public GitHub remote. |
 | Secret scan | Passed. `gitleaks detect --no-git --source . --redact --exit-code 1` found no leaks. |
 | Local path scan | Passed. No developer-machine absolute paths or personal path strings were found. |
 | Environment/config scan | Passed. No `.env`, `.env.*`, PEM, key, or token files were found. |
@@ -54,11 +56,11 @@ This repository contains:
 | Publication placeholder scan | Passed. The root `README.md` uses publication-safe placeholder text instead of raw unpublished-link markers. |
 | Visual media placement | Passed. No visual-media folders or placeholder media docs are included; visual media remains scoped to the portfolio case unless separately approved. |
 | Whitespace/conflict-marker scan | Passed. No trailing whitespace or conflict markers were found. |
-| Working tree status | Passed after final cleanup commit. |
+| Working tree status | Passed after publication cleanup. |
 
-## Manual Review Items Before Publishing
+## Manual Review Items Before Adding Links Or Media
 
-- Review publication placeholder text in the root `README.md`.
+- Review final public links before adding them to the root `README.md`.
 - Keep visual media in the portfolio case unless a separate publishing
   decision adds reviewed assets here later.
 - Re-read every example to confirm simplified snippets do not imply a runnable
@@ -67,11 +69,12 @@ This repository contains:
   an open-source or commercial license.
 - Re-run this audit after adding links or any media.
 
-## Confirmation
+## Publication State
 
-- No GitHub repository was created.
-- No remote was added.
-- No push was performed.
+- GitHub repository was created.
+- Remote was added.
+- Initial public push was performed.
+- Repository is public.
 - No production license was added.
 - No full Live Demo source was copied.
 - No full product package source was copied.
