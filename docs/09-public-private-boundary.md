@@ -10,7 +10,7 @@ the private working monorepo.
 - public-safe diagrams;
 - high-level process examples;
 - validation and publishing checklists;
-- screenshot placeholders.
+- technical review checklists.
 
 ## Excluded
 

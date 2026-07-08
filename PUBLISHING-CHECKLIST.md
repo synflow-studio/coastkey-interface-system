@@ -14,8 +14,9 @@ Do not publish until every item below has been reviewed.
       are included.
 - [ ] Confirm no local machine paths are included.
 - [ ] Confirm no private Figma links or node IDs are included.
-- [ ] Add final screenshots or keep screenshot directories as placeholders.
-- [ ] Replace TODO links in `README.md`.
+- [ ] Keep visual media in the portfolio case unless a separate publishing
+      decision adds reviewed assets here later.
+- [ ] Review publication placeholder text in `README.md`.
 - [ ] Re-run public-safety checks.
 
 ## GitHub Steps To Run Later

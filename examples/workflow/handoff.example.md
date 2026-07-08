@@ -23,7 +23,7 @@ Product Page Layout.
 
 - Typecheck: passed.
 - Reference metadata review: passed.
-- Responsive visual QA: pending manual screenshot review.
+- Responsive visual QA: pending manual review.
 
 ## Notes
 

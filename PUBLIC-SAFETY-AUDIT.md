@@ -1,6 +1,7 @@
 # Public Safety Audit
 
-Status: prepared for manual review before publication.
+Status: final local cleanup complete; prepared for manual GitHub publication
+after human review.
 
 ## Created Files
 
@@ -9,7 +10,6 @@ This repository contains:
 - root orientation files;
 - public-safe architecture docs;
 - simplified examples;
-- screenshot placeholder READMEs;
 - publishing checklist;
 - notice;
 - this audit file.
@@ -51,17 +51,21 @@ This repository contains:
 | Private Figma link scan | Passed. No private Figma URLs, node IDs, or capture IDs were found. |
 | Internal workflow term scan | Review passed. Terms such as prompts, skills, routers, backlog, and task queues appear only in exclusion/boundary statements. |
 | Source-data/generated runtime JSON scan | Passed. No raw source-data folder, generated runtime JSON, runtime split folder, or private media asset was copied. |
+| Publication placeholder scan | Passed. The root `README.md` uses publication-safe placeholder text instead of raw unpublished-link markers. |
+| Visual media placement | Passed. No visual-media folders or placeholder media docs are included; visual media remains scoped to the portfolio case unless separately approved. |
 | Whitespace/conflict-marker scan | Passed. No trailing whitespace or conflict markers were found. |
+| Working tree status | Passed after final cleanup commit. |
 
 ## Manual Review Items Before Publishing
 
-- Replace `TODO` links in the root `README.md`.
-- Add final reviewed screenshots or keep screenshot folders as placeholders.
+- Review publication placeholder text in the root `README.md`.
+- Keep visual media in the portfolio case unless a separate publishing
+  decision adds reviewed assets here later.
 - Re-read every example to confirm simplified snippets do not imply a runnable
   production product.
 - Confirm the Notice language is acceptable for public viewing without granting
   an open-source or commercial license.
-- Re-run this audit after adding screenshots or links.
+- Re-run this audit after adding links or any media.
 
 ## Confirmation
 

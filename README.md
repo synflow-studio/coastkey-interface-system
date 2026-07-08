@@ -38,11 +38,10 @@ They are meant to explain the architecture, not to run the full product.
 
 ## Related Surfaces
 
-- Portfolio case RU: TODO
-- Portfolio case EN: TODO
-- Live Demo: TODO
-- Component Showcase EN: TODO
-- Component Showcase RU: TODO
+- Portfolio case RU: will be added after publication.
+- Portfolio case EN: will be added after publication.
+- Live Demo: will be added after final domain setup.
+- Component Showcase: will be added after publication.
 
 ## Architecture In One Minute
 
