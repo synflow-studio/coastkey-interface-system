@@ -7,6 +7,6 @@
 | Runtime adapter | Typecheck, runtime copy audit, adapter tests, public behavior review |
 | Product Page Layout | Typecheck, reference coverage, responsive visual QA, layout contract review |
 | Reference surface | Metadata review, source-file coverage, truth-mode review |
-| Public snapshot repo | Secret scan, local path scan, private term scan, no remote check |
+| Public snapshot repo | Secret scan, local path scan, private term scan, public-safety review |
 
 This is a public-safe example, not the original private validation config.

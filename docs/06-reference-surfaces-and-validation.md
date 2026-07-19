@@ -33,6 +33,18 @@ Useful public-safe vocabulary:
 - `reference-only`: inspection surface, not runtime surface.
 - `diagnostic`: calibration or guardrail surface.
 
+## Responsive Evidence Rule
+
+Reference surfaces should show a real responsive branch rather than shrinking a
+desktop screen into a thumbnail. Desktop, tablet, and mobile evidence are
+separate review states. When the available inspection space cannot support the
+desktop state, the surface should show a clear desktop-space notice and retain
+the appropriate compact evidence below it.
+
+This keeps reference review honest: the documentation shell is not counted as
+product viewport space, and reviewers inspect the same responsive behavior the
+product is intended to use.
+
 ## Validation Categories
 
 Validation is selected by touched layer. Public-safe categories include:

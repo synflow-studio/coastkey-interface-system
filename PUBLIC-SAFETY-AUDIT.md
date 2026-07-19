@@ -2,6 +2,8 @@
 
 Status: published public portfolio showcase repository.
 
+Last public-safety review: 2026-07-19.
+
 This audit was originally prepared before publication and was updated after
 the initial GitHub push.
 
@@ -24,6 +26,16 @@ This repository contains:
 - high-level validation categories;
 - high-level AI-assisted workflow example;
 - publication checklist.
+
+## Reviewed Public Links
+
+The following public links are intentionally included in the repository and
+were checked during this review:
+
+- CoastKey portfolio case: `https://zemgraphics.ru/cases/coastal-marketplace/`
+- CoastKey Showcase: `https://showcase.zemgraphics.ru/`
+- CoastKey Live Demo: `https://coastkey.zemgraphics.ru/`
+- This public repository: `https://github.com/synflow-studio/coastkey-interface-system`
 
 ## Excluded Categories
 
@@ -53,21 +65,21 @@ This repository contains:
 | Private Figma link scan | Passed. No private Figma URLs, node IDs, or capture IDs were found. |
 | Internal workflow term scan | Review passed. Terms such as prompts, skills, routers, backlog, and task queues appear only in exclusion/boundary statements. |
 | Source-data/generated runtime JSON scan | Passed. No raw source-data folder, generated runtime JSON, runtime split folder, or private media asset was copied. |
-| Publication placeholder scan | Passed. The root `README.md` uses publication-safe placeholder text instead of raw unpublished-link markers. |
+| Public link and placeholder scan | Passed. The root `README.md` carries reviewed public links and no temporary unpublished-link markers. |
+| Public link check | Passed. The reviewed Case, Showcase, Live Demo, and repository links are public and reachable. |
 | Visual media placement | Passed. No visual-media folders or placeholder media docs are included; visual media remains scoped to the portfolio case unless separately approved. |
 | Whitespace/conflict-marker scan | Passed. No trailing whitespace or conflict markers were found. |
 | Working tree status | Passed after publication cleanup. |
 
-## Manual Review Items Before Adding Links Or Media
+## Manual Review Items Before Adding Media Or New Public Evidence
 
-- Review final public links before adding them to the root `README.md`.
 - Keep visual media in the portfolio case unless a separate publishing
   decision adds reviewed assets here later.
 - Re-read every example to confirm simplified snippets do not imply a runnable
   production product.
 - Confirm the Notice language is acceptable for public viewing without granting
   an open-source or commercial license.
-- Re-run this audit after adding links or any media.
+- Re-run this audit after adding any new public link, media, or example.
 
 ## Publication State
 
@@ -79,3 +91,5 @@ This repository contains:
 - No full Live Demo source was copied.
 - No full product package source was copied.
 - No private source data or generated runtime data was copied.
+- The repository is a maintained curated snapshot, not an automatic mirror of
+  the private working monorepo.

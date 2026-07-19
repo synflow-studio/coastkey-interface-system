@@ -1,31 +1,32 @@
-# Publishing Checklist
+# Public Update Checklist
 
-Do not publish until every item below has been reviewed.
+The initial public publication is complete. Use this checklist whenever the
+curated public snapshot, its public links, or its reviewed examples change.
 
-## Before GitHub
+## Publication Baseline
 
-- [ ] Final manual review of `README.md`.
-- [ ] Final manual review of all `docs/`.
-- [ ] Final manual review of all `examples/`.
-- [ ] Confirm no private source data or generated runtime JSON is included.
-- [ ] Confirm no prompts, skills, routers, backlog, task queues, or internal
-      workflow details are included.
-- [ ] Confirm no secrets, tokens, keys, `.env` files, or private config files
-      are included.
-- [ ] Confirm no local machine paths are included.
-- [ ] Confirm no private Figma links or node IDs are included.
-- [ ] Keep visual media in the portfolio case unless a separate publishing
-      decision adds reviewed assets here later.
-- [ ] Review publication placeholder text in `README.md`.
-- [ ] Re-run public-safety checks.
+- [x] Public GitHub repository created and linked to the CoastKey case.
+- [x] Public-facing boundaries documented in `NOTICE.md` and
+      `docs/09-public-private-boundary.md`.
+- [x] Visual media remains in the portfolio case unless separately reviewed.
 
-## GitHub Steps To Run Later
+## Before Every Public Update
 
-- [ ] Create the GitHub repository.
-- [ ] Add remote.
-- [ ] Push the local `main` branch.
-- [ ] Pin the repository.
-- [ ] Add link to the portfolio case.
-- [ ] Add link from the repository README back to the portfolio and Live Demo.
+- [ ] Review `README.md`, changed `docs/`, and changed `examples/` for a clear
+      public audience.
+- [ ] Confirm the change remains a curated explanation, not a copy of the
+      working monorepo or full product source.
+- [ ] Confirm no source data, generated runtime JSON, private media, prompts,
+      skills, routers, backlog state, deployment configuration, secrets, local
+      paths, or private Figma links are included.
+- [ ] Confirm public links target the current portfolio case, Showcase, and
+      Live Demo.
+- [ ] Keep screenshots and embedded visual previews in the portfolio case
+      unless a separate media review approves an asset for this repository.
+- [ ] Run the public-safety checks and review the diff before publishing.
 
-These steps are intentionally not performed by this local preparation pass.
+## After Every Public Update
+
+- [ ] Refresh `PUBLIC-SAFETY-AUDIT.md` with the reviewed scope and link set.
+- [ ] Verify the repository landing page and linked public surfaces.
+- [ ] Add a concise commit message that describes the public-facing update.

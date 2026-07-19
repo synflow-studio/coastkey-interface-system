@@ -35,13 +35,31 @@ They are meant to explain the architecture, not to run the full product.
 4. [Component Contracts](docs/05-component-contracts.md)
 5. [Reference Surfaces and Validation](docs/06-reference-surfaces-and-validation.md)
 6. [AI-assisted Workflow Example](docs/08-ai-assisted-workflow-example.md)
+7. [Public Evidence Map](docs/10-public-evidence-map.md)
 
 ## Related Links
 
-This repository supports the CoastKey portfolio case as a technical showcase
-and reference surface for interface-system architecture.
+This repository connects the public technical explanation with the current
+portfolio surfaces:
 
-Public links will be added after the final domain setup.
+- [CoastKey portfolio case](https://zemgraphics.ru/cases/coastal-marketplace/)
+- [CoastKey Showcase](https://showcase.zemgraphics.ru/)
+- [CoastKey Live Demo](https://coastkey.zemgraphics.ru/)
+
+## Ten-Minute Tour
+
+1. Start with the [portfolio case](https://zemgraphics.ru/cases/coastal-marketplace/)
+   for product context, visual evidence, and embedded previews.
+2. Open the [Live Demo](https://coastkey.zemgraphics.ru/?screen=search-catalog)
+   to inspect a runtime journey from discovery to detail and booking.
+3. Open the [Showcase](https://showcase.zemgraphics.ru/) to inspect the Product
+   UI Kit, Product Components, Component Blocks, and Product Page Layouts.
+4. Return here for the architecture behind the public surfaces, then use the
+   [public evidence map](docs/10-public-evidence-map.md) to connect each
+   concept to a live inspection route and a simplified example.
+
+The public case carries the screenshots and embedded product previews. This
+repository deliberately stays code-and-documentation focused.
 
 ## Architecture In One Minute
 
